@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Junaid Sardar S
+* **Register Number**: 212224100028
+* **Date of Submission**: 17/08/2026
 
 ---
 
@@ -85,13 +85,13 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Created a VPC with CIDR 10.0.0.0/16 and created a public subnet with CIDR 10.0.1.0/24.
+2. Enabled Auto-assign Public IPv4 for the public subnet.
+3. Created an Internet Gateway, attached it to the VPC, and created a route table with 0.0.0.0/0 pointing to the Internet Gateway.
+4. Associated the public subnet with the route table and created a Security Group allowing SSH (port 22) and HTTP (port 80).
+5. Launched an Amazon Linux EC2 instance in the public subnet with a public IPv4 address and the created security group.
+6. Installed and started the Apache HTTP Server (httpd) on the EC2 instance and created a simple HTML webpage.
+7. Accessed the webpage using the public IP address of the EC2 instance and verified that the web server was successfully running.
 
 ---
 
@@ -99,19 +99,20 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
+![alt text](1.png)
 
 ---
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
-
+![alt text](2.1.png)
+![alt text](2.2.png)
+![alt text](2.3.png)
 ---
 
 ### Screenshot 3: Web Server Output in Browser
 
-(Insert Screenshot Here)
+![alt text](3.png)
 
 ---
 
