@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Junaid Sardar S
+* **Register Number**: 212224100028
+* **Date of Submission**: 24/08/2026
 
 ---
 
@@ -98,11 +98,13 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Explored the Amazon EC2 Dashboard and understood the different sections such as Instances, AMIs, Key Pairs, Security Groups, and Instance Types.
+2. Launched an Amazon Linux EC2 instance by selecting the appropriate AMI, instance type, key pair, and security group.
+3. Configured the Security Group to allow SSH access on port 22 and HTTP access on port 80.
+4. Connected to the running EC2 instance using SSH and the key pair, and verified that the instance was accessible.
+5. Performed basic instance operations such as Stop, Start, and Reboot, and observed the instance state changes.
+6. Monitored the EC2 instance using the Monitoring tab and checked CPU utilization, network activity, and status checks.
+7. Finally, terminated the EC2 instance after completing the experiment to avoid unnecessary AWS resource usage and charges.
 
 ---
 
@@ -110,19 +112,19 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
+![alt text](<Screenshot 2026-08-22 104401.png>)
 
 ---
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
+![alt text](<Screenshot 2026-08-22 115402.png>)
 
 ---
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+![alt text](<Screenshot 2026-08-22 115852.png>)
 
 ---
 

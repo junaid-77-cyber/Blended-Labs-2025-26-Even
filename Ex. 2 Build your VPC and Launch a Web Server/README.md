@@ -98,7 +98,6 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: VPC and Subnet Details
-
 ![alt text](1.png)
 
 ---
