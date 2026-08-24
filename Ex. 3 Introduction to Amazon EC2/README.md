@@ -96,8 +96,6 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
-
 1. Explored the Amazon EC2 Dashboard and understood the different sections such as Instances, AMIs, Key Pairs, Security Groups, and Instance Types.
 2. Launched an Amazon Linux EC2 instance by selecting the appropriate AMI, instance type, key pair, and security group.
 3. Configured the Security Group to allow SSH access on port 22 and HTTP access on port 80.
