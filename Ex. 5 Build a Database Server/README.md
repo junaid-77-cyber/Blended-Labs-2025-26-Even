@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Junaid Sardar S
+* **Register Number**: 212224100028
+* **Date of Submission**: 11/09/2026
 
 ---
 
@@ -82,13 +82,14 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Launch EC2 Instance – Created an EC2 instance using Amazon Linux 2 AMI, selected a suitable instance type, configured a key pair, and attached a security group.
+2. Configure Security Group – Added inbound rules for SSH (Port 22) and the required database port, such as MySQL (Port 3306).
+3. Connect to EC2 – Connected to the EC2 instance remotely using SSH and the configured key pair.
+4. Install Database Server – Installed the required database software, such as MariaDB/MySQL, using the Linux package manager.
+5. Start and Configure Database – Started the database service, enabled it to run automatically, and performed the basic database configuration and user privilege setup.
+6. Create Sample Database – Created a sample database and table, then inserted a few records using SQL commands.
+7. Test Connectivity – Connected to the database and executed basic SQL queries such as SELECT, INSERT, and UPDATE to verify that the database server was working correctly.
 
 ---
 
@@ -96,19 +97,19 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
-
+![alt text](5.1.png)
+![alt text](5.2.png)
 ---
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
+![alt text](5.3.png)
 
 ---
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+![alt text](5.4.png)
 
 ---
 
